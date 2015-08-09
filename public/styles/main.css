@@ -2,3 +2,31 @@ html, body {
 	background-color: #dadada;
 	font-family: 'Helvetica'
 }
+
+.widgets-section{
+	height: 1000px;
+	width: 250px;
+	background-color: #f0f0f0;
+}
+
+/* Post-it */
+.postit{
+	height: 200px;
+	width: 200px;
+	background-color: #efdb80;
+}
+
+
+/*Drag and Drop Directive styles*/
+
+/* Hvordan det ser ut under npr man dragger */
+.lvl-over{
+	border: 1px solid black;
+}
+
+/* Style av elementet når man drar*/
+.lvl-target{
+	opacity: .5;
+}
+
+
