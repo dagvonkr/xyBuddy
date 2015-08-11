@@ -1,11 +1,13 @@
 var module;
 
+// prøver først try, funker ikke dette går den videre til catch
 try {
     module = angular.module('lvl.services');  
 } catch (e) {
     module  = angular.module('lvl.services', []);
 }
 
+// Her lages denne unike id'en
 module.factory('uuid', function() {
     var svc = {
         new: function() {
@@ -20,6 +22,6 @@ module.factory('uuid', function() {
           return '00000000-0000-0000-0000-000000000000';
         }
     };
-    
+    console.log('Dette er UUID:', svc);
     return svc;
 });

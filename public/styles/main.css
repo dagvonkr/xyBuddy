@@ -5,17 +5,46 @@ html, body {
 
 .widgets-section{
 	height: 1000px;
-	width: 250px;
+	width: 350px;
 	background-color: #f0f0f0;
+	margin-top: -10px;
+	margin-left: -10px;
+	padding-top: 5px;
+
 }
 
 /* Post-it */
 .postit{
-	height: 200px;
-	width: 200px;
+	height: 150px;
+	width: 150px;
+	text-align: center;
+	color: black;
 	background-color: #efdb80;
+	margin: 10px 5px 5px 15px;
 }
 
+.kalkulator{
+	height: 150px;
+	width: 150px;
+	text-align: center;
+	color: white;
+	background-color: #b9d7d6;
+	margin: 10px 5px 5px 0px;
+}
+
+.element{
+	height: 150px;
+	width: 150px;
+	background-color: #d9e2e2;
+	margin: 10px 5px 5px 15px;
+}
+
+.emptyslot{
+	height: 150px;
+	width: 150px;
+	border: 1px solid #f1f2f2;
+	margin: 5px 0px 5px 0px;
+}
 
 /*Drag and Drop Directive styles*/
 
